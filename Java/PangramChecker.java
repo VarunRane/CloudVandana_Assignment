@@ -24,10 +24,8 @@ public class PangramChecker
 
     	public static boolean isPangram(String s) 
 	{
-        	// Remove spaces and convert to lowercase for uniformity
         	s = s.replaceAll("\\s", "").toLowerCase();
 
-        	// Use a HashSet to store unique letters
         	HashSet<Character> letterSet = new HashSet<>();
 
         	for (char c : s.toCharArray()) 
