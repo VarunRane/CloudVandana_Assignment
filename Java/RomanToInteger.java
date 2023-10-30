@@ -39,7 +39,7 @@ public class RomanToInteger
 
             		if (value == -1) 
 			{
-                		return -1; // Invalid Roman numeral
+                		return -1;
             		}
 
 	            	if (value < prevValue) 
