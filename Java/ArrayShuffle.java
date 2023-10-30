@@ -8,7 +8,6 @@ public class ArrayShuffle
         
         	Shuffle(array);
         
-        	// Print the shuffled array
         	for (int element : array) 
 		{
            		System.out.print(element + " ");
@@ -24,7 +23,6 @@ public class ArrayShuffle
 		{
             		int j = random.nextInt(i + 1);
             
-            		// Swap array[i] and array[j]
             		Integer temp = array[i];
             		array[i] = array[j];
             		array[j] = temp;
