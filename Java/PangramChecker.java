@@ -36,7 +36,6 @@ public class PangramChecker
             		}
         	}
 
-        	// Check if the set contains all 26 letters
         	return letterSet.size() == 26;
     	}
 }
